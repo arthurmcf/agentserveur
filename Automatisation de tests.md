@@ -1,3 +1,5 @@
+{:toc}
+
 # Tests du Publisher et Downloader
 
 | Module    | Test  à effectuer                                |
