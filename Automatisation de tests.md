@@ -1,25 +1,6 @@
 # Tests du Publisher et Downloader
 
-| Module    | Test  à effectuer                                |
-| :-------- | ------------------------------------------------ |
-| Publisher | ALL : Ajout d'un mot clé entraine la publication |
-|           | GED : Case à cocher entraine la publication      |
-|           | Files : Suppression supprime de MC               |
-
-Publisher : 
-
-- GED : Case à cocher entraine publisher
-- Files : Couper/coller entraine publication et suppression
-- Files : Copier/Coller entraine publication
-- All : Déplacement entraine publication
-- GED : Modification métadonnées entraine publication
-- Files : Ajout d'un mot clé entraine la publication
-- All : Nouveau client entraine rescan complet du client
-- 
-
-Downloader :
-
-- Téléchargement
+[toc]
 
 ## Process de test
 
@@ -56,12 +37,27 @@ Note over MCF,T: Tests du Publisher et Downloader effectué
 
 ```
 
-## V
+## Cas à tester
+
+### Publisher : 
+
+- All : 
+  - Déplacement entraine publication
+  - Nouveau client entraine rescan complet du client
+
+- GED : 
+  - Case à cocher entraine publisher
+  - Modification métadonnées entraine publication
+
+- Files :
+  - Couper/coller entraine publication et suppression
+  - Copier/Coller entraine publication
+  - Ajout d'un mot clé entraine la publication
 
 
+### Downloader :
 
-
-
-
-
-[^test]: 
+- Téléchargement
+- Suppression après téléchargement
+- Déplacement après téléchargement
+- Tag après téléchargement
